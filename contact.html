@@ -44,73 +44,33 @@
     </nav>
 
     <!-- Show case -->
-    <div class="contact-page">
+  
+         
+            
+               <div class="contact-page">
 
         <div class="overlay container">
-            <!-- <div class="contact-form">
-        
-            <div class="mb-3">
-            <form action="./assets/js/contact.js" autocomplete="off">
-              <h3 class="title">Contact us</h3>
-              <div class="input-container">
-                <label for="name">Username</label>
-                <input type="text" name="name" class="input" id="name"/>
-               
-               
-              </div>
-              <div class="input-container">
-                <label for="email">Email</label>
-                <input type="email" name="email" class="input" />
-        
-                <span>Email</span>
-              </div>
-            
-              <div class="input-container textarea">
-                <label for="message">Message</label>
-                <textarea name="message" class="input"></textarea>
-                
-                <span>Message</span>
-              </div>
-              <input type="submit" value="Send" class="btn" />
-              </form>
-            </div>
-           
-          </div> -->
-            <!-- <div class="form mb-3">
-            <label for="name" class="form-label">Name:</label>
-            <input type="text" id="name" class="form-control form-control-lg" name="name" required>
-          
-            <label for="email" class="form-label">Email:</label>
-            <input type="email" id="email" class="form-control form-control-lg" name="email" required>
-          
-            <label for="message" class="form-label">Message:</label>
-            <textarea id="message" class="form-control form-control-lg" rows="3" name="message" required></textarea>
-          
-            <input type="submit" value="Submit">
-          </div>
-          
-        </div>
-      </div> -->
-            
-                <form class="row g-3" id="form" onsubmit="return validateForm()">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
-                    </div>
 
-                    <div class="mb-3">
-                        <button class="btn" type="submit">Submit</button>
-                    </div>
-                </form>
-        
+
+            <form class="row g-3" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+            </form>
+
         </div>
 
 
@@ -121,8 +81,9 @@
 
 
 
-
-    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/index.js"></script>
 
     <!-- Footer -->
     <footer class="p-5 bg-dark text-white text-center position-relative">
@@ -145,9 +106,7 @@
 
     </footer>
 
-    <!--Bootstrap js-->
-    <script src="./assets/js/jquery.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
+
 
 </body>
 
