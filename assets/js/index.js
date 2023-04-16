@@ -53,7 +53,7 @@ emailjs.send(serviceID, templateID, params)
         document.getElementById("email").value.trim();
         document.getElementById("message").value.trim();
         console.log(res);
-        alert("Your message sent successfully");
+        alert("Your message sent successfully")
 
     }
 )
