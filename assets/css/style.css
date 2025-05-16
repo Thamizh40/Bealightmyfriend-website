@@ -76,6 +76,10 @@ body::before {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+.card-title h2 {
+  font-size: 1.5rem;
+}
+
 
 body {
     padding: -1px;
