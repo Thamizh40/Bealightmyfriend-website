@@ -76,9 +76,27 @@ body::before {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+.card-title-arti h3 h4 {
+    color: #2c3e50;
+  
+    justify-content: left;
+}
 
+.container {
+    margin-bottom: 20px;
+}
 
-body {
+/*body {
+      font-family: Georgia, serif;
+      background-color: #fefefe;
+      color: #333;
+      line-height: 1.7;
+      padding: 2rem;
+     
+      margin: auto;
+    }*/
+
+    body {
     padding: -1px;
     margin: 1px;
     font-size: 18px;
@@ -161,6 +179,20 @@ body {
    
 }
 
+
+  blockquote {
+      margin: 1em 0;
+      padding-left: 1em;
+      border-left: 4px solid #ccc;
+      color: #555;
+    }
+
+    
+
+ .verse {
+      font-style: italic;
+      color: #444;
+    }
 /* #respond {
     margin-top: 40px;
   }
@@ -206,6 +238,10 @@ body {
     z-index: 2;
 
 
+}
+
+.container-show{
+    padding-top: 50px;
 }
 
 .container-comment input,
@@ -385,6 +421,13 @@ ul li p:nth-child(2) {
  
   
 
-  
+  .site-footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666;
+  padding: 25px 0;
+}
+
  
   
