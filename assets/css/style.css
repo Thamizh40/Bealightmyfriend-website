@@ -83,7 +83,8 @@ body::before {
 }
 
 .container {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    padding: 5px;
 }
 
 /*body {
@@ -240,8 +241,22 @@ body::before {
 
 }
 
-.container-show{
-    padding-top: 50px;
+.showcase{
+   padding-top: 60px;
+}
+
+.navbar{
+    height: 80px;
+}
+.navbar-brand a{
+    font-size: 2.4rem;
+}
+
+.navbar a {
+    padding: 25px 10px;         
+    font-size: 25px; 
+    margin-top: 35px;
+         
 }
 
 .container-comment input,
@@ -429,5 +444,7 @@ ul li p:nth-child(2) {
   padding: 25px 0;
 }
 
- 
+ .navbar {
+
+ }
   
